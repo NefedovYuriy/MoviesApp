@@ -1,0 +1,15 @@
+/* .app {
+    width: 1010px;
+    height: 1147px;
+}
+.movie {
+    display: flex;
+    flex-flow: column wrap;
+    max-width: 451px;
+    height: 279px;
+} */
+
+img{
+    max-width: 451px;
+    max-height: 279px;
+}
