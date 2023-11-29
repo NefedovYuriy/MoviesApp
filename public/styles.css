@@ -1,0 +1,23 @@
+*{
+  box-sizing: border-box;
+}
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f7f7f7;
+    color: #111111;
+    margin: 0 auto;
+    width: 100vw;
+  }
+
+p {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/* ::-webkit-scrollbar { all: unset;}
+
+::-webkit-scrollbar { all: initial;}
+
+::-webkit-scrollbar { width: unset;}
+
+::-webkit-scrollbar { width: initial;} */
