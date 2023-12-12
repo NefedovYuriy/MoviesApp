@@ -1,0 +1,1 @@
+export { RateStars } from './RateStars';

@@ -1,0 +1,1 @@
+export { RatedList } from './RatedList';

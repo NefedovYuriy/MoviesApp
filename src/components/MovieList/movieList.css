@@ -1,0 +1,18 @@
+.movies {
+    padding: 0;
+  }
+  .movies__list {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 0;
+  }
+  
+  @media (max-width: 910px) {
+    .movies {
+      display: block;
+      max-width: 420px;
+      margin: 0 auto;
+    }
+  }

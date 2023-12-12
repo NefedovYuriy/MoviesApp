@@ -1,0 +1,33 @@
+body {
+    font-family: 'Inter', sans-serif;
+    background: #f7f7f7;
+    color: #111111;
+    margin: 0 auto;
+  }
+  :focus {
+    outline: 0;
+  }
+  h5,
+  p {
+    margin: 0;
+  }
+  .container {
+    background: #fff;
+    max-width: 1010px;
+    min-height: 100vh;
+    margin: 0 auto;
+  }
+  .search-input {
+    margin: 10px auto;
+    max-width: 938px !important;
+  }
+  
+  @media (max-width: 910px) {
+    body {
+      background: #fff;
+    }
+    .container {
+      max-width: 420px;
+    }
+  }
+  
