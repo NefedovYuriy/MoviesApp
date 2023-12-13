@@ -28,7 +28,7 @@ export class ServiceApi {
       if (!result.ok) throw new Error(`Failed to Fetch: ${url} Description: ${result.statusText}`);
       return await result.json();
     } catch (e) {
-      throw new Error('Ошибка получения фильмов');
+      throw new Error('Error receiving movies');
     }
   }
 
@@ -42,7 +42,7 @@ export class ServiceApi {
       if (!result.ok) throw new Error(`Failed to Fetch: ${url} Description: ${result.statusText}`);
       return await result.json();
     } catch (e) {
-      throw new Error('Ошибка получения фильмов');
+      throw new Error('Error receiving movies');
     }
   }
 

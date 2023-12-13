@@ -99,6 +99,10 @@ export class MovieList extends Component {
       });
   };
 
+  componentDidMount() {
+    this.searchPopularMovies();
+  }
+
   render() {
     const { movies, totalPage, page, queryMovie, noResult, isLoading } = this.state;
     const { pageTab, sendRateStars, screenWidth } = this.props;
